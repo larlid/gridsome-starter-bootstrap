@@ -1,9 +1,8 @@
 ---
 title: En första bloggpost
-excerpt: Hydrogen atoms colonies bits of moving fluff cosmic fugue gathered by gravity
-  shores of the cosmic ocean.
+excerpt: En överskrift
 date: 2019-04-21T17:00:00.000+00:00
-author: Loke Carlsson
+author: Lars
 image: "/uploads/space.svg"
 
 ---
