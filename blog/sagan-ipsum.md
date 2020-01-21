@@ -1,7 +1,7 @@
 ---
 title: En första bloggpost
 excerpt: En överskrift
-date: 2019-04-21T17:00:00.000+00:00
+date: 2020-01-20 23:00:00 +0000
 author: Lars
 image: "/uploads/space.svg"
 
