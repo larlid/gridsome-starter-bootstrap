@@ -16,4 +16,4 @@ Bara lite lagom
 
 \##överskrift
 
-\[a link\](www.larslidgren.se)
+\[a link\](http://www.larslidgren.se)
