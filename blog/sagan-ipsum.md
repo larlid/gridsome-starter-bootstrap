@@ -16,6 +16,10 @@ Bara lite lagom
 
 \##överskrift
 
-\[a link\](http://www.larslidgren.se)
+[www.larslidgren.se](http://www.larslidgren.se "www.larslidgren.se")
 
-Slut för idag
+_Slut för idag_
+
+    printf("Hello");
+
+Hej!
