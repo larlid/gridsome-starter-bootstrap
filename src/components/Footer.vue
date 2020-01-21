@@ -1,7 +1,7 @@
 <template>
   <footer class="page-footer font-small teal py-4">
-    <div class="footer-copyright text-center">Designed and coded by:
-      <a target="_blank" rel="noopener" href="https://loke.dev/"> Loke Carlsson</a>
+    <div class="footer-copyright text-center">Copyright:
+      <a target="_blank" rel="noopener" href="http://www.larslidgren.se/"> Lars Lidgren</a>
     </div>
   </footer>
 </template>
