@@ -17,19 +17,19 @@
           Don’t fill this out: <input name="bot-field" />
         </label>
       </p>
-        <b-form-group id="input-group-2" label="Name:" label-for="form-name">
+        <b-form-group id="input-group-2" label="Namn:" label-for="form-name">
           <b-form-input
             id="name"
             name="name"
             v-model="form.name"
             required
-            placeholder="Enter name"
+            placeholder="Ditt namn"
           />
         </b-form-group>
 
         <b-form-group
           id="input-group-1"
-          label="Email:"
+          label="Epost:"
           label-for="email"
         >
           <b-form-input
@@ -38,21 +38,21 @@
             name="email"
             type="email"
             required
-            placeholder="Enter email"
+            placeholder="Din epostadress"
           />
         </b-form-group>
 
-        <b-form-group id="input-group-3" label="Message:" label-for="message">
+        <b-form-group id="input-group-3" label="Meddelande:" label-for="message">
           <b-form-textarea
             id="message"
             name="message"
             v-model="form.message"
             required
-            placeholder="Enter message"
+            placeholder="Ditt meddelande"
           />
         </b-form-group>
 
-        <b-button type="submit" variant="primary">Submit</b-button>
+        <b-button type="submit" variant="primary">SKicka</b-button>
       </b-form>
     </div>
   </Layout>

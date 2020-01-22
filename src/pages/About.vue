@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <h1 class="mb-4">About</h1>
+    <h1 class="mb-4">Om</h1>
     <img class="about-image" src="../../uploads/profile.svg" />
 
     <p>Lorem ipsum dolor sit amet consectetur adipiscing elit, platea elementum mus lectus molestie et. Conubia taciti nunc proin vehicula et nascetur lacinia commodo non, penatibus vel dui pharetra inceptos himenaeos orci viverra ad, quis ullamcorper sit scelerisque nibh praesent imperdiet vulputate.</p>

@@ -2,7 +2,7 @@
   <Layout>
     <img class="greet-image" src="../../uploads/hello.svg" />
 
-    <h2 class="mb-4">Gridsome starter bootstrap</h2>
+    <h2 class="mb-4">LarsLidgren.se</h2>
     <p>
       This is a starter project for Gridsome that comes with many features out of the box. It utilizes Bootstrap that is well known
       for powerful styling and layout. Ready to be deployed, automagically imports data to CMS and sets up your /admin page for easy
