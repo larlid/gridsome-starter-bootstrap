@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <h1 class="mb-4">Contact</h1>
+    <h1 class="mb-4">Kontakt</h1>
     <div>
       <img class="contact-image mb-4" src="../../uploads/email.svg" />
       <b-form 
@@ -14,7 +14,7 @@
       <input type="hidden" name="name" value="contact" />
       <p hidden>
         <label>
-          Don’t fill this out: <input name="bot-field" />
+          Fyll inte i detta: <input name="bot-field" />
         </label>
       </p>
         <b-form-group id="input-group-2" label="Namn:" label-for="form-name">
@@ -52,7 +52,7 @@
           />
         </b-form-group>
 
-        <b-button type="submit" variant="primary">SKicka</b-button>
+        <b-button type="submit" variant="primary">Skicka</b-button>
       </b-form>
     </div>
   </Layout>
