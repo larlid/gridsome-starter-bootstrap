@@ -1,6 +1,6 @@
 module.exports = {
-  siteName: 'Gridsome starter bootstrap',
-  siteDescription: 'A starter project for Gridsome with Bootstrap and some other useful tools.',
+  siteName: 'LarsLidgren.se',
+  siteDescription: 'Personlig hemsida med aktier, personlig information och tips',
   siteUrl: 'https://gridsome-starter-bootstrap.loke.dev',
   plugins: [
     {
