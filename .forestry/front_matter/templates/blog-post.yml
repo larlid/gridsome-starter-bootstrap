@@ -31,6 +31,7 @@ fields:
   label: Page field
 pages:
 - blog/bästa-stiftpennan.md
+- blog/index-1.md
 - blog/investeringar-värdepapper-strategier.md
 - blog/ny-post.md
 - indexcms/first-index-post.md
