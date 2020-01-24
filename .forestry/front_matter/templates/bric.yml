@@ -9,3 +9,5 @@ fields:
   label: Överskrift
   description: Skriv in din överskrift
   default: ''
+pages:
+- blog/Index/man.md
