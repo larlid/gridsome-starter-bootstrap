@@ -1,4 +1,11 @@
 ---
 label: Bric
 hide_body: false
-fields: []
+fields:
+- name: Header
+  type: text
+  config:
+    required: false
+  label: Överskrift
+  description: Skriv in din överskrift
+  default: ''
