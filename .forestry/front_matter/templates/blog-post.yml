@@ -17,7 +17,7 @@ fields:
 - type: file
   name: image
   label: image
-- name: pagefield
+- name: pagenumber
   type: number
   description: '1-index : 2-about : 3-blog : 4-contact : 5-stock : 6-art : 7-services
     : 8-other'
