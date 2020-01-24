@@ -1,9 +1,10 @@
 ---
 title: Investeringsstrategier värdepapper
 excerpt: Vilka strategier bör man ha?
-date: 2020-01-22 00:00:00 +0100
+date: 2020-01-21T23:00:00.000+00:00
 author: Lars Lidgren
 image: "/uploads/adjustments.svg"
+page_field: 3
 
 ---
 Ska man satsa på tillväxt eller utdelning?
