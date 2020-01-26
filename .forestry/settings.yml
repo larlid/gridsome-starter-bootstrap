@@ -5,10 +5,12 @@ admin_path: "/static/admin"
 webhook_url: 
 sections:
 - type: directory
-  path: indexcms
+  path: index
   label: Index
   create: all
   match: "**/*"
+  templates:
+  - blog-post
 - type: directory
   path: blog
   label: Blog
