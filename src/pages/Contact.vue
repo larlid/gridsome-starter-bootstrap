@@ -61,7 +61,7 @@
 <script>
   export default {
     metaInfo: {
-      title: 'Contact'
+      title: 'Kontakt'
     },
     data() {
       return {

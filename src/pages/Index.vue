@@ -80,18 +80,64 @@
       <li>Happy hacking 🎉🙌</li>
     </ol>
 
+  <!-- testing graphql -->
+      <h1 class="my-4 mb-5">Index</h1>
+
+    <g-link
+      :to="item.node.path"
+      v-for="item in $page.posts.edges"
+      :key="item.node.id"
+      class="blog-post"
+    >
+
+    <div class="media my-5">
+      <g-image immediate :src="item.node.image" class="mr-3" alt="image" />
+      <div class="media-body">
+        <h5 class="mt-0">{{item.node.title}}</h5>
+        <p class="text-dark">{{item.node.excerpt}}</p>
+      </div>
+    </div>
+
+    </g-link>
+
+
+
   </Layout>
 </template>
+
+<page-query>
+query Blog {
+	posts: allBlogPost(sortBy: "date") {
+    edges {
+      node {
+        id
+        path
+        title
+        excerpt
+        image
+      }
+    }
+  }
+}
+</page-query>
+
 
 <script>
 export default {
   metaInfo: {
-    title: 'LarsLidgren.se'
+    title: 'LL Start'
   }
 }
 </script>
 
-<style>
+
+<style lang="scss" scoped>
+.media {
+  img {
+    width: 120px;
+    height: 120px;
+  }
+}
 .greet-image {
   display: block;
   margin: auto;
@@ -99,4 +145,5 @@ export default {
   max-width: 500px;
   padding-bottom: 50px;
 }
+
 </style>

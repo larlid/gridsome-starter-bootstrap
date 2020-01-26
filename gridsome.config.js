@@ -5,7 +5,7 @@ module.exports = {
   plugins: [
     {
       use: '@gridsome/source-filesystem',
-      options: {
+      options: { 
         path: 'blog/**/*.md',
         typeName: 'BlogPost',
         resolveAbsolutePaths: true,
