@@ -9,8 +9,6 @@ sections:
   label: Index
   create: all
   match: "**/*"
-  templates:
-  - blog-post
 - type: directory
   path: blog
   label: Blog
