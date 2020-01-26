@@ -80,7 +80,7 @@
       <li>Happy hacking 🎉🙌</li>
     </ol>
 
-  <!-- testing graphql -->
+  <!-- testing graphql 
       <h1 class="my-4 mb-5">Index</h1>
 
     <g-link
@@ -99,7 +99,7 @@
     </div>
 
     </g-link>
-
+-->
 
 
   </Layout>
