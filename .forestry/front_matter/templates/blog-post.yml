@@ -30,5 +30,4 @@ fields:
     required: true
   label: Page field
 pages:
-- blog/bästa-stiftpennan.md
 - blog/investeringar-värdepapper-strategier.md
