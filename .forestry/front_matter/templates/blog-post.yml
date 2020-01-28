@@ -18,4 +18,5 @@ fields:
   name: image
   label: image
 pages:
+- blog/index.md
 - blog/investeringsstrategier.md
