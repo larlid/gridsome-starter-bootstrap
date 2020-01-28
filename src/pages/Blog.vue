@@ -1,9 +1,10 @@
 <template>
   <Layout>
     <h1 class="my-4 mb-5">Blog</h1>
+    <!--      :to="item.node.path"-->
 
     <g-link
-      :to="item.node.path"
+      :to="item.node.id"
       v-for="item in $page.posts.edges"
       :key="item.node.id"
       class="blog-post"
@@ -27,7 +28,6 @@ query Blog {
     edges {
       node {
         id
-        path
         title
         excerpt
         image
