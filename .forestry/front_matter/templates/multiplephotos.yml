@@ -1,4 +1,63 @@
 ---
 label: MultiplePhotos
 hide_body: false
-fields: []
+fields:
+- name: photos
+  type: image_gallery
+  config: {}
+  label: Photos
+  description: Photos for carousel
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
+  description: Description of building
+- name: area
+  type: text
+  config:
+    required: false
+  label: Area
+  description: Area in square meters
+- name: year
+  type: text
+  config:
+    required: false
+  label: Year
+  description: Date the project finished
+- name: architect
+  type: text
+  config:
+    required: false
+  label: Architect
+  description: Name of the architect
+- name: work_title
+  type: text
+  config:
+    required: false
+  label: Work Title
+  description: Work Title
+- name: education
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Education
+  description: Short description of education
+- name: experience
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: experience
+  description: Short description of work experience
