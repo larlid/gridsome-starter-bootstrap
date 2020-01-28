@@ -29,5 +29,3 @@ fields:
     step: 
     required: true
   label: Page field
-pages:
-- blog/investeringar-värdepapper-strategier.md
