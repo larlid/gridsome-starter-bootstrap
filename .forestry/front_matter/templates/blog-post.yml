@@ -17,17 +17,5 @@ fields:
 - type: file
   name: image
   label: image
-- name: pagenumber
-  type: number
-  description: '1-index : 2-about : 3-blog : 4-contact : 5-stock : 6-art : 7-services
-    : 8-other'
-  default: '3'
-  required: true
-  config:
-    min: '1'
-    max: '9'
-    step: 
-    required: true
-  label: Page field
 pages:
 - blog/investeringsstrategier.md
