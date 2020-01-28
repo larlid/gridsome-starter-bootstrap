@@ -5,6 +5,7 @@ date: 2020-01-21T23:00:00.000+00:00
 author: Lars Lidgren
 image: "/uploads/adjustments.svg"
 page_field: 3
+pagenumber: 3
 
 ---
 Ska man satsa på tillväxt eller utdelning?
