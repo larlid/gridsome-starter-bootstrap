@@ -81,7 +81,7 @@
     </ol>
 
       <h1 class="my-4 mb-5">Index</h1>
-
+    <!--
     <g-link
       :to="item.node.path"
       v-for="item in $page.posts.edges"
@@ -90,7 +90,7 @@
     >
 
     <div class="media my-5">
-      <!--<g-image immediate :src="item.node.image" class="mr-3" alt="image" />-->
+      <g-image immediate :src="item.node.image" class="mr-3" alt="image" />
       <div class="media-body">
         <h5 class="mt-0">{{item.node.title}}</h5>
         <p class="text-dark">{{item.node.id}}</p>
@@ -98,11 +98,11 @@
     </div>
 
     </g-link>
-
+    -->
 
   </Layout>
 </template>
-
+<!--
 <page-query>
 query {
   posts: allIndexPost {
@@ -115,7 +115,7 @@ query {
   }
 }
 </page-query>
-
+-->
 
 <script>
 export default {
