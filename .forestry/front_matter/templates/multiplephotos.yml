@@ -61,5 +61,3 @@ fields:
       format: markdown
   label: experience
   description: Short description of work experience
-pages:
-- index/blomsterbutik.md
