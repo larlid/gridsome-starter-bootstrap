@@ -29,3 +29,5 @@ fields:
     step: 
     required: true
   label: Page field
+pages:
+- blog/investeringsstrategier.md
