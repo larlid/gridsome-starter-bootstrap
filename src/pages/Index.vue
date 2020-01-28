@@ -80,7 +80,6 @@
       <li>Happy hacking 🎉🙌</li>
     </ol>
 
-  <!-- testing graphql 
       <h1 class="my-4 mb-5">Index</h1>
 
     <g-link
@@ -91,30 +90,26 @@
     >
 
     <div class="media my-5">
-      <g-image immediate :src="item.node.image" class="mr-3" alt="image" />
+      <!--<g-image immediate :src="item.node.image" class="mr-3" alt="image" />-->
       <div class="media-body">
         <h5 class="mt-0">{{item.node.title}}</h5>
-        <p class="text-dark">{{item.node.excerpt}}</p>
+        <p class="text-dark">{{item.node.id}}</p>
       </div>
     </div>
 
     </g-link>
--->
 
 
   </Layout>
 </template>
 
 <page-query>
-query Blog {
-	posts: allBlogPost(sortBy: "date") {
+query {
+  posts: allIndexPost {
     edges {
       node {
         id
-        path
         title
-        excerpt
-        image
       }
     }
   }
