@@ -4,7 +4,7 @@
     <!--      :to="item.node.path"-->
 
     <g-link
-      :to="item.node.id"
+      :to="item.node.path"
       v-for="item in $page.posts.edges"
       :key="item.node.id"
       class="blog-post"
@@ -28,6 +28,7 @@ query Blog {
     edges {
       node {
         id
+        path
         title
         excerpt
         image

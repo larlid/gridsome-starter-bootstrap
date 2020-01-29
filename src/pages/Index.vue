@@ -80,8 +80,8 @@
       <li>Happy hacking 🎉🙌</li>
     </ol>
 
-      <h1 class="my-4 mb-5">Index</h1>
-    <!--
+    
+    <h1 class="my-4 mb-5">Index</h1>
     <g-link
       :to="item.node.path"
       v-for="item in $page.posts.edges"
@@ -89,8 +89,16 @@
       class="blog-post"
     >
 
-    <div class="media my-5">
-      <g-image immediate :src="item.node.image" class="mr-3" alt="image" />
+    <div class="media my-7">
+      <li v-if="item.node.photos">Object Length = {{ item.node.photos.length }}</li>
+      <!--<li  v-for="value in item.node.photos" :key="item.node.id"> {{ value }}</li>-->
+      <g-image immediate :src="item.node.photos[0]" class="mr-5" alt="image" />
+      <div v-if="item.node.photos[1]"> 
+        <g-image immediate :src="item.node.photos[1]" class="mr-5" alt="image" />
+      </div>
+      <div v-if="item.node.photos[2]"> 
+        <g-image immediate :src="item.node.photos[2]" class="mr-5" alt="image" />
+      </div>
       <div class="media-body">
         <h5 class="mt-0">{{item.node.title}}</h5>
         <p class="text-dark">{{item.node.id}}</p>
@@ -98,24 +106,24 @@
     </div>
 
     </g-link>
-    -->
+    
 
   </Layout>
 </template>
-<!--
+
 <page-query>
 query {
   posts: allIndexPost {
     edges {
       node {
         id
-        title
+        description
+        photos
       }
     }
   }
 }
 </page-query>
--->
 
 <script>
 export default {
