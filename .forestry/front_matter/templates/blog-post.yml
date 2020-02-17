@@ -19,3 +19,4 @@ fields:
   label: image
 pages:
 - blog/first-blog-post.md
+- blog/second-blog-post.md
